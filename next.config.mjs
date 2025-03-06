@@ -7,6 +7,10 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: "/AI-Nutritional-Search-Site",
+  assetPrefix: "/AI-Nutritional-Search-Site/",
+  
   eslint: {
     ignoreDuringBuilds: true,
   },
